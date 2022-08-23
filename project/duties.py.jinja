@@ -134,7 +134,7 @@ def changelog(ctx):
         kwargs={
             "inplace_file": "CHANGELOG.md",
             "marker": "<!-- insertion marker -->",
-            "version_regex": r"^## \[v?(?P<version>[^\]]+)",
+            "version_regex": r"^## \[v?(?P<version>[^\}}+)",
             "template_url": "https://raw.githubusercontent.com/pawamoy/jinja-templates/master/keepachangelog.md",
             "commit_style": "angular",
         },
