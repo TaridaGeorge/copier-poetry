@@ -41,13 +41,13 @@ Make sure all the
 are met, then:
 
 ```bash
-copier "https://github.com/pawamoy/copier-poetry.git" /path/to/your/new/project
+copier "https://github.com/TaridaGeorge/copier-poetry.git" /path/to/your/new/project
 ```
 
 Or even shorter:
 
 ```bash
-copier "gh:pawamoy/copier-poetry" /path/to/your/new/project
+copier "gh:TaridaGeorge/copier-poetry" /path/to/your/new/project
 ```
 
 See the [documentation](https://pawamoy.github.io/copier-poetry)
